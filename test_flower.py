@@ -1,4 +1,4 @@
-from VC1520 import VC1520
+from inkscape.VC1520 import VC1520
 
 plotter = VC1520(6)
 

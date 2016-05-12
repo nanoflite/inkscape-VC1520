@@ -1,4 +1,4 @@
-from opencbm import *
+from inkscape.VC1520.opencbm import *
 
 cbm = cbm_open_driver()
 cbm_lock(cbm)
