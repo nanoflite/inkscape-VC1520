@@ -139,7 +139,8 @@ class SendtoVC1520(object2path.ObjectToPath):
             transformMatrix = parseTransform('translate(%f,%f)' % (-x,-y))
             transformMatrix = composeTransform(parseTransform('rotate(180)'), transformMatrix)
             transformMatrix = composeTransform(parseTransform('translate(%f,0)' % width), transformMatrix)
-            transformMatrix = composeTransform(parseTransform('scale(%f,%f)' % (scale,scale)), transformMatrix)
+            transformMatrix = composeTransform(parseTransform('scale(%f,%f)' % (-scale,scale)), transformMatrix)
+            transformMatrix = composeTransform(parseTransform('translate(480,0)'), transformMatrix)
 
         paths = []
         for [path, node] in self.processPaths(transformMatrix):
