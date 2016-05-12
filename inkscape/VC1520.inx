@@ -6,7 +6,6 @@
     <id>org.github.nanoflite.openbmpy</id>
 
     <!--
-
     <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
     <dependency type="executable" location="extensions">opencbm.py</dependency>
     <dependency type="executable" location="extensions">VC1520.py</dependency>
@@ -15,13 +14,19 @@
     <dependency type="executable" location="extensions">simpletransform.py</dependency>
     <dependency type="executable" location="extensions">cubicsuperpath.py</dependency>
     <dependency type="executable" location="extensions">cspsubdiv.py</dependency>
-
     -->
 
     <param name="active-tab" type="notebook">
       <page name='VC1520' _gui-text='VC1520'>
         <param name="device" type="int" min="0" max="255" _gui-text="device">6</param>
-        <param name="title" type="string" _gui-text="title"></param>
+        <param name="title" type="string" _gui-text="Title (empty is none)"></param>
+        <param name="color" type="optiongroup" appearance="minimal" _gui-text="Title color">
+            <option value="black">black</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+        </param>
+        <param name="debug" type="boolean" _gui-text="Debug">false</param>
       </page>
     </param>
 
