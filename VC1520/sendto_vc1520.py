@@ -45,6 +45,7 @@ class SendtoVC1520(object2path.ObjectToPath):
 
     def plot(self, paths, minY):
         plotter = VC1520(self.options.device)
+        plotter.reset()
         plotter.home()
 
         if self.options.title:
