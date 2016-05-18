@@ -35,7 +35,7 @@ Copy files to '~/.config/inkscape/extensions/'
 
 ## Issues
 
-  * Does not react on close, keeps on going when done.
+  * Does not react on close, keeps on going until finished.
   * Strange lines when converting some objects.
   * Probably a ton of other issues.
 
