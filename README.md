@@ -39,6 +39,10 @@ Copy files to '~/.config/inkscape/extensions/'
   * Strange lines when converting some objects.
   * Probably a ton of other issues.
 
+## Links
+
+  * [How to plot Inkscape drawings on a vintage VC1520 plotter.](https://wp.me/p49g4M-85)
+
 Cheers,
 Johan
 
